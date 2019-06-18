@@ -12,4 +12,6 @@ SET PATH=%PATH%;%CURRENT%bin
 java -jar gerrit.war init -d ./gerrit_review_site
 
 :: start daemon automatically
-daemon_run.bat
+::daemon_run.bat
+
+PAUSE
